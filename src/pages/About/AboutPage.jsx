@@ -123,6 +123,21 @@ const About = () => {
                   />
                 </p>
               </div>
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img
+                  alt="Tailwind CSS"
+                  className="skills-img"
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                  title="Tailwind CSS"
+                />
+                <h2 className="skill-name">Tailwind CSS</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-4'
+                    defaultMessage='One year using this utility-first CSS framework in the professional field. I incorporate it into many of my projects for its ability to provide a well-organized and efficient code structure.'
+                  />
+                </p>
+              </div>
               <div className="skill-card" data-aos="flip-down" data-aos-delay="300">
                 <img alt="Bootstrap" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" />
                 <h2 className="skill-name">Bootstrap</h2>
