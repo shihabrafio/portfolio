@@ -33,7 +33,7 @@ const HeaderPage = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <NavLink className="logo" to="/" >
-                <p>=(<span>Rafio</span>)=></p>
+                <p>=(&lt;<span>Rafio</span>)=&gt;</p>
             </NavLink>
 
             <nav className="navbar">
