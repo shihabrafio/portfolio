@@ -27,13 +27,13 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is A.I.M. Shihab Uddin Khan and I am a full stack developer.'
+                        defaultMessage='My name is Rafio and I am a full stack developer.'
                     />
                 </h4>
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been working on web designing and web development for 1 year. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
+                        defaultMessage='I have been working on web designing and web development for 2 year. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
                     />
                 </p>
                 <ul>
@@ -66,8 +66,7 @@ const About = () => (
                                     id='from'
                                     defaultMessage='From:'
                                 />
-                            </span>
-                            Dhaka,Bangladesh
+                            </span> Dhaka,Bangladesh
                         </p>
                     </li>
                 </ul>
@@ -167,10 +166,6 @@ const About = () => (
                     <div>
                         <img alt="git" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" />
                         <h5>Git</h5>
-                    </div>
-                    <div>
-                        <img alt="jest" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-original.svg" title="jest" />
-                        <h5>Jest</h5>
                     </div>
                 </div>
             </div>
