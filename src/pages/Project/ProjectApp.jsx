@@ -76,52 +76,52 @@ function ProjectApp() {
                 <section className="projects__grid apps">
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal18(!estadoModal18)}>
-                            <img src={proyectsImgApp(`./proyecto-app-18.png`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./TaskMate.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal17(!estadoModal17)}>
-                            <img src={proyectsImgApp(`./proyecto-app-17.png`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./Space-hub.png`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal16(!estadoModal16)}>
-                            <img src={proyectsImgApp(`./proyecto-app-16.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./Movie-Monday.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
-                            <img src={proyectsImgApp(`./proyecto-app-15.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./Meco.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal14(!estadoModal14)}>
-                            <img src={proyectsImgApp(`./proyecto-app-14.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./EcoClima.png`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal13(!estadoModal13)}>
-                            <img src={proyectsImgApp(`./proyecto-app-13.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./Math-magician.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal12(!estadoModal12)}>
-                            <img src={proyectsImgApp(`./proyecto-app-12.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./BookSore.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal11(!estadoModal11)}>
-                            <img src={proyectsImgApp(`./proyecto-app-11.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./awesome.png`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal10(!estadoModal10)}>
-                            <img src={proyectsImgApp(`./proyecto-app-10.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./school_library.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal9(!estadoModal9)}>
-                            <img src={proyectsImgApp(`./proyecto-app-9.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./Todolist.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
@@ -172,25 +172,25 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-18-com.png`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./TaskMate.PNG`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                CoinPlus
+                                TaskMate
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-18-p1'
-                                    defaultMessage='An app that offers exchange services for all the cryptocurrencies of the Ethereum network. You can convert dollars into cryptocurrencies, change to others and sell them to be cashed in dollars.'
+                                    defaultMessage='TaskMate is a user-friendly React app that simplifies task management and enhances productivity. With its intuitive interface, users can easily create, organize, and prioritize tasks.'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-18-p2'
-                                    defaultMessage='The application has an authentication system, so that the user can access their account and carry out the operations they want, it also has a section where you can see the evolution of the different cryptocurrencies.'
+                                    defaultMessage='The app offers features like due dates, reminders, and advanced filtering, allowing users to stay on top of their responsibilities.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://coin-plus.vercel.app/" target="_blank">https://coin-plus.vercel.app/</a>
+                                <span>Link:</span> <a href="https://taskmate-nwzt.onrender.com/" target="_blank">https://taskmate-nwzt.onrender.com/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -202,11 +202,7 @@ function ProjectApp() {
                                 <div className="eins-modal-tec-2">
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -220,19 +216,19 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-17-com.png`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./Space-hub.png`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                PI Dogs
+                                Space-Hub
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-17-p2'
-                                    defaultMessage='This project consisted of the development of a SPA (Single Page Application) which is developed with the neumorphism style, makes use of a data API (The Dog API), and then part of the information is extracted and stored in a Database. of Data, (PostgreSQL) so that it can be used later at convenience.'
+                                    defaultMessage='Space Traverlers Hub is a corporation that offers services for commercial and scientific space flight has a web application called Space-Travelers-Hub. Users of the app will be able to reserve rockets and sign up for particular space missions. '
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://pi-dogs-main-ashy.vercel.app/" target="_blank">https://pi-dogs-main-ashy.vercel.app/</a>
+                                <span>Link:</span> <a href="https://space-travel-hub-dupt.onrender.com/" target="_blank">https://space-travel-hub-dupt.onrender.com/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -242,13 +238,9 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />
-
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
                                 </div>
                             </div>
                         </div>
