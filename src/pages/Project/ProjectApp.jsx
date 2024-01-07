@@ -449,19 +449,19 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-11.jpg`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./awesome.png`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                Pokedex
+                                Awesome
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-11-p2'
-                                    defaultMessage='A pokedex created with the pokemon API, returns all the pokemons with their respective statistics, includes a pagination every 9 pokemons.'
+                                    defaultMessage='Awesome Book is a comprehensive booklist website that provides a user-friendly platform for book lovers to discover, read reviews, and share their favorite books with others.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Pokedex/" target="_blank">https://nahuel61920.github.io/Pokedex/</a>
+                                <span>Link:</span> <a href="https://shihabrafio.github.io/Awesome-Books/" target="_blank">https://shihabrafio.github.io/Awesome-Books/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -473,8 +473,9 @@ function ProjectApp() {
                                 <div className="eins-modal-tec">
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
                                 </div>
                             </div>
                         </div>
