@@ -409,19 +409,19 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-12.jpg`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./BookSore.PNG`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                My paint
+                                BookStore
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-12-p2'
-                                    defaultMessage='A small paint that allows us to draw, change colors, edit the thickness of the line and erase the drawing made'
+                                    defaultMessage='Bookstores serve as physical or online spaces dedicated to the sale and distribution of books. They play a vital role in the literary community, offering a wide range of books across various genres and subjects to cater to diverse reading interests.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Paint/" target="_blank">https://nahuel61920.github.io/Paint/</a>
+                                <span>Link:</span> <a href="https://bookstore-4y56.onrender.com/" target="_blank">https://bookstore-4y56.onrender.com/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -434,6 +434,8 @@ function ProjectApp() {
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="" />
                                 </div>
                             </div>
                         </div>
