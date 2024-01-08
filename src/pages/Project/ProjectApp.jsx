@@ -452,7 +452,7 @@ function ProjectApp() {
                         <div className="eins-modal-preview"><img src={proyectsImgApp(`./awesome.png`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                Awesome
+                                Awesome BookStore
                             </p>
                             <p>
                                 <FormattedMessage
@@ -489,22 +489,19 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-10.jpg`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./school_library.PNG`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
-                                <FormattedMessage
-                                    id='projectsApp-info-10-p1'
-                                    defaultMessage='Client Manager'
-                                />
+                                School Library
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-10-p2'
-                                    defaultMessage='Authorizes you to take a shift to repair your cell phone, you can edit the shift if you wish.'
+                                    defaultMessage='School Library Backend App is a powerful and flexible tool designed to help schools and educational institutions efficiently manage their library resources. This backend application allows librarians and administrators to keep track of all the records of books in the library and the borrowers who check them out.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Administrador-de-Clientes/" target="_blank">https://nahuel61920.github.io/Administrador-de-Clientes/</a>
+                                <span>Link:</span> <a href="https://github.com/shihabrafio/OOP-School-Library" target="_blank">https://github.com/shihabrafio/OOP-School-Library</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -514,10 +511,8 @@ function ProjectApp() {
                                     />
                                 </span>
                                 <div className="eins-modal-tec">
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -531,18 +526,18 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-9.jpg`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./Todolist.PNG`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-9-p1'
-                                    defaultMessage='Pomodoro app'
+                                    defaultMessage='To do list'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-9-p2'
-                                    defaultMessage='It allows you to add a task to complete it in 25 minutes and at the end rest 5 minutes.'
+                                    defaultMessage='A to-do list website is a useful tool for keeping track of tasks and staying organized. It allows users to create, manage and prioritize tasks, set reminders and deadlines, and track their progress towards completing their goals.'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
