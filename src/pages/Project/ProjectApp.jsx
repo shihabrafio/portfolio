@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './ProjectPage.css';
+import { IntlProvider } from 'react-intl';
 
 /* Modal */
 import Modal from "./Modal";
@@ -41,6 +42,7 @@ function ProjectApp() {
     const [estadoModal1, cambiarEstadoModal1] = useState(false);
 
     return (
+        <IntlProvider locale="en"> 
         <div>
 
             <HeaderPage />
@@ -896,6 +898,7 @@ function ProjectApp() {
 
             <Footer />
         </div>
+        </IntlProvider>
     )
 }
 
