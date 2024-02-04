@@ -199,7 +199,7 @@ const About = () => {
                 </p>
               </div>
               <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
-                <img alt="rails" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original.svg" title="rails" />
+                <img alt="rails" className="skills-img" src="https://github.com/devicons/devicon/blob/master/icons/rails/rails-plain.svg" title="rails" />
                 <h2 className="skill-name">Rails</h2>
                 <p className="skill-info">
                   <FormattedMessage
