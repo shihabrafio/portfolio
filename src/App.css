@@ -214,6 +214,10 @@ body.dark .btn::after {
     main {
         padding:2rem 4%;
     }
+
+    .loader img {
+        width: 200px;
+    }
 }
 
 @media (max-width: 570px) {
@@ -227,5 +231,9 @@ body.dark .btn::after {
 
     .loader span {
         font-size: 3rem;
+    }
+
+    .loader img {
+        width: 100px;
     }
 }

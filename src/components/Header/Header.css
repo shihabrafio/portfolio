@@ -272,6 +272,10 @@ body.dark #darkMode::after {
   .site-header {
     padding: 1rem 8%;
   }
+
+  .logo-img {
+    width: 14%;
+  } 
 }
 
 @media (max-width: 570px) {
@@ -305,5 +309,9 @@ body.dark #darkMode::after {
 
   .nav-proj a.active::before {
     width: 100%;
+  }
+
+  .logo-img {
+    width: 14%;
   }
 }
