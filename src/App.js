@@ -15,6 +15,8 @@ import ProjectGame from "./pages/Project/ProjectGame";
 
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
 
+import logo from './img/Rafio.png';
+
 
 function App() {
     const [loading, setLoading] = useState(false);
@@ -33,8 +35,7 @@ function App() {
 
                     <div className='loading-pag'>
                         <div className="loader">
-                            <span>=(Rafio)=></span>
-                            <span>=(Rafio)=></span>
+                            <img src={logo} alt="Rafio" />
                         </div>
                     </div>
 
@@ -46,7 +47,7 @@ function App() {
                         <Route exact path="/service" element={<Services />}></Route>
                         <Route exact path="/project" element={<Project />}></Route>
                         <Route exact path="/project/app" element={<ProjectApp />} />
-                        <Route exact path="/project/game" element={<ProjectGame />} />
+                        {/* <Route exact path="/project/game" element={<ProjectGame />} /> */}
                     </Routes>
 
             }
