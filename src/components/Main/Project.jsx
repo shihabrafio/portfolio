@@ -53,112 +53,104 @@ const Project = () => {
                 >
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-app-18.png`)}
+                            src={proyectImg(`./Sky-Movie.png`)}
                             alt='proyectos'
 
                         />
                         <div className="content">
-                            <h3>CoinPlus</h3>
+                            <h3>Sky Movie</h3>
                             <p>
-                                Trading platform for cryptocurrencies
+                               Movie information application that utilizes the TMDB API to provide users with comprehensive details about movies.
                             </p>
                             <p className="tecnologias">
                                 React
                                 <span> -</span> CSS
+                                <span> -</span> Tailwind CSS
                                 <span> -</span> Redux
-                                <span> -</span> Bootstrap
-                                <span> -</span> TypeScript
-                                <span> -</span> Solidity
-                                <span> -</span> NodeJS
-                                <span> -</span> MongoDB
                             </p>
-                            <a href="https://coin-plus.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/CoinPlus" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://movie-api-lqpn.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/shihabrafio/Sky-Movie" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-14.jpg`)}
+                            src={proyectImg(`./TaskMate.PNG`)}
                             alt='proyectos'
 
                         />
                         <div className="content">
-                            <h3>Justice</h3>
+                            <h3>TaskMate</h3>
                             <p>
                                 lawyers website
                             </p>
                             <p className="tecnologias">
-                                HTML5
+                                React
                                 <span> -</span> CSS
+                                <span> -</span> Tailwind CSS
                                 <span> -</span> JavaScript
-                                <span> -</span> jQuery
-                                <span> -</span> Bootstrap
                             </p>
-                            <a href="https://nahuel61920.github.io/Justice/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Justice" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://taskmate-nwzt.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/shihabrafio/Taskmate" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-app-17.png`)}
+                            src={proyectImg(`./EcoClima.png`)}
+                            style={{ width: '119.667px' }}
                             alt='proyectos'
-
                         />
                         <div className="content">
-                            <h3>PI Dogs</h3>
+                            <h3>EcoClima</h3>
                             <p>
-                                Individual Project
+                              Revolutionizing climate action with an environmental-social app
                             </p>
                             <p className="tecnologias">
                                 React
                                 <span> -</span> CSS
                                 <span> -</span> Redux
-                                <span> -</span> NodeJS
-                                <span> -</span> ExpressJS
-                                <span> -</span> Sequelize
-                                <span> -</span> PostgreSQL
                             </p>
-                            <a href="https://pi-dogs-main-ashy.vercel.app/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/PI-DOGS-MAIN" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://ecoclima.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/shihabrafio/EcoClima" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={proyectImg(`./proyecto-7.jpg`)}
+                            src={proyectImg(`./Afforai.PNG`)}
                             alt='proyectos'
                         />
                         <div className="content">
-                            <h3>Power Engine</h3>
+                            <h3>Afforai</h3>
                             <p>
-                                Automobiles Website
+                                AI chatbot that searches, summarizes, and translates info from multiple sources
+                                to produce trustworthy research
+                            </p>
+                            <p className="tecnologias">
+                                React
+                                <span> -</span> CSS
+                                <span> -</span> Tailwind CSS
+                                <span> -</span> JavaScript
+                            </p>
+                            <a href="https://afforai-cwsf.onrender.com/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/shihabrafio/Afforai" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className='caja'>
+                        <img
+                            src={proyectImg(`./Meco.PNG`)}
+                            alt='proyectos'
+                        />
+                        <div className="content">
+                            <h3>MECO</h3>
+                            <p>
+                                MECO is a company that specializes in providing AI-driven solutions and services to help businesses streamline their operations and improve their performance
                             </p>
                             <p className="tecnologias">
                                 HTML5
                                 <span> -</span> CSS
                                 <span> -</span> JavaScript
                             </p>
-                            <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='caja'>
-                        <img
-                            src={proyectImg(`./proyecto-6.jpg`)}
-                            alt='proyectos'
-                        />
-                        <div className="content">
-                            <h3>Spider-Man fan page</h3>
-                            <p>
-                                Fan page Spider-Man
-                            </p>
-                            <p className="tecnologias">
-                                HTML5
-                                <span> -</span> CSS
-                                <span> -</span> JavaScript
-                                <span> -</span> Bootstrap
-                            </p>
-                            <a href="https://nahuel61920.github.io/Spider-Man/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Spider-Man" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
+                            <a href="https://shihabrafio.github.io/Meco-Chocolate/" className="custom-btn btn" target="_blank" rel="noopener noreferrer"><span>Demo</span></a>
+                            <a href="https://github.com/shihabrafio/Meco-Chocolate" className="custom-btn btn-codigo" target="_blank" rel="noopener noreferrer">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>

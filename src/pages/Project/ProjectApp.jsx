@@ -128,7 +128,7 @@ function ProjectApp() {
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal8(!estadoModal8)}>
-                            <img src={proyectsImgApp(`./proyecto-app-8.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImgApp(`./Afforai.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
@@ -543,7 +543,7 @@ function ProjectApp() {
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Pomodoro/" target="_blank">https://nahuel61920.github.io/Pomodoro/</a>
+                                <span>Link:</span> <a href="https://shihabrafio.github.io/To-do-list/" target="_blank">https://shihabrafio.github.io/To-do-list/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -569,22 +569,23 @@ function ProjectApp() {
             >
                 <div className="content-modal">
                     <div className="pw-content">
-                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-8.jpg`)} alt="" /></div>
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./Afforai.PNG`)} alt="" /></div>
                         <div className="eins-modal-text">
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-8-p1'
-                                    defaultMessage='Weekly expenses'
+                                    defaultMessage='Afforai'
                                 />
                             </p>
                             <p>
                                 <FormattedMessage
                                     id='projectsApp-info-8-p2'
-                                    defaultMessage='You can calculate the expenses that you are going to make in the week, having a budget that you choose.'
+                                    defaultMessage='AI chatbot that searches, summarizes, and translates info from multiple sources
+                                    to produce trustworthy research'
                                 />
                             </p>
                             <div className="eins-modal-text-2">
-                                <span>Link:</span> <a href="https://nahuel61920.github.io/Gastos-semanales/" target="_blank">https://nahuel61920.github.io/Gastos-semanales/</a>
+                                <span>Link:</span> <a href="https://afforai-cwsf.onrender.com/" target="_blank">https://afforai-cwsf.onrender.com/</a>
                             </div>
                             <div className="eins-modal-text-3">
                                 <span>
@@ -596,8 +597,8 @@ function ProjectApp() {
                                 <div className="eins-modal-tec">
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                                     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
-                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="" />
                                 </div>
                             </div>
                         </div>

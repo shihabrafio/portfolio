@@ -109,7 +109,7 @@ const About = () => (
                         <h5>Bootstrap</h5>
                     </div>
                     <div>
-                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
                         <h5>Tailwindcss</h5>
                     </div>
 
@@ -133,7 +133,7 @@ const About = () => (
                         <h5>MongodDB</h5>
                     </div>
                     <div>
-                        <img alt="Rails" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original.svg" />
+                        <img alt="Rails" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" />
                         <h5>Rails</h5>
                     </div>
                     <div>
