@@ -34,6 +34,7 @@
 
 .wrapper {
     margin: 2rem;
+    margin-left: 27rem;
 }
 .wrapper .button{
     display: flex;
