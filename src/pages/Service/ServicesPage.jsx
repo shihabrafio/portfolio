@@ -34,7 +34,7 @@ const Services = () => {
                 <h3>
                     <FormattedMessage
                         id='design'
-                        defaultMessage='ADesign UX/UIboult me'
+                        defaultMessage='Design UX/UI'
                     />
                 </h3>
                 <p>

@@ -27,13 +27,13 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is Rafio and I am a full stack developer.'
+                        defaultMessage='My name is Rafio and I am a Frontend Developer / React Developer/ Mobile App Developer.'
                     />
                 </h4>
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been working on web designing and web development for 2 year. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
+                        defaultMessage='I have been working on web and mobile apps developing for 2 year. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
                     />
                 </p>
                 <ul>
@@ -109,7 +109,7 @@ const About = () => (
                         <h5>Bootstrap</h5>
                     </div>
                     <div>
-                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                        <img alt="Tailwindcss" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
                         <h5>Tailwindcss</h5>
                     </div>
 
@@ -133,7 +133,7 @@ const About = () => (
                         <h5>MongodDB</h5>
                     </div>
                     <div>
-                        <img alt="Rails" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original.svg" />
+                        <img alt="Rails" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-plain.svg" />
                         <h5>Rails</h5>
                     </div>
                     <div>

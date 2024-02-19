@@ -13,6 +13,9 @@ import DarkMode from '../DarkMode/DarkMode';
 import { FormattedMessage } from "react-intl";
 import { langContext } from '../../context/Context';
 
+import logo from '../../img/Rafio.png';
+
+
 const Header = () => {
     // Buttom language
     const idioma = useContext(langContext);
@@ -34,9 +37,7 @@ const Header = () => {
         <header className="site-header">
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
-            <NavLink className="logo" to="/">
-                <p>=(<span>Rafio</span>)=></p>
-            </NavLink>
+                    <img className="logo-img" src={logo} alt="Rafio" />
 
             <nav className="navbar">
                 <Link to="inicio" spy={true} offset={-150} href="#inicio">
@@ -71,7 +72,6 @@ const Header = () => {
                 </Link>
                 <div id="buttons">
                     <img onClick={() => idioma.selectLanguage('en-US')} src="https://nahuel61920.github.io/Portafoliovirtual/img/en.png" alt="EEUU" />
-                    <img onClick={() => idioma.selectLanguage('es-ES')} src="https://nahuel61920.github.io/Portafoliovirtual/img/es.png" alt="España" />
                 </div>
             </nav>
             <div className="switch" id="switch">

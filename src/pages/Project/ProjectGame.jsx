@@ -63,22 +63,22 @@ const ProjectGame = () => {
                 <section className="projects__grid games">
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal4(!estadoModal4)}>
-                            <img src={proyectsImg(`./proyecto-game-4.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImg(`./Movie-Monday.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
-                            <img src={proyectsImg(`./proyecto-game-3.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImg(`./Sky-Movie.png`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal2(!estadoModal2)}>
-                            <img src={proyectsImg(`./proyecto-game-2.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImg(`./TaskMate.PNG`)} alt="" className="projects__img" />
                         </a>
                     </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal1(!estadoModal1)}>
-                            <img src={proyectsImg(`./proyecto-game-1.jpg`)} alt="" className="projects__img" />
+                            <img src={proyectsImg(`./EcoClima.png`)} alt="" className="projects__img" />
                         </a>
                     </div>
                 </section>

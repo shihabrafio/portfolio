@@ -13,7 +13,7 @@
   padding: 2rem 8%;
 }
 
-.site-header .logo {
+.site-header {
   font-family: "Bebas Neue", cursive;
   font-size: 2.6rem;
   color: rgb(231, 13, 13);
@@ -21,6 +21,10 @@
 
 .site-header .logo span {
   color: #000;
+}
+
+.logo-img {
+  width: 4%;
 }
 
 .navbar {
@@ -191,7 +195,7 @@ body.dark #darkMode::after {
     border: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .site-header .logo {
+  .site-header {
     padding-left: 2rem;
   }
 
@@ -268,6 +272,10 @@ body.dark #darkMode::after {
   .site-header {
     padding: 1rem 8%;
   }
+
+  .logo-img {
+    width: 14%;
+  } 
 }
 
 @media (max-width: 570px) {
@@ -301,5 +309,9 @@ body.dark #darkMode::after {
 
   .nav-proj a.active::before {
     width: 100%;
+  }
+
+  .logo-img {
+    width: 14%;
   }
 }
